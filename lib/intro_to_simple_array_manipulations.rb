@@ -70,10 +70,10 @@ end
 
 
 def using_delete(array, string)
-  array.delete("string")
+  array.delete
 end
 
-#.delete_if{|i|i==6}
+
 #a = [ "a", "b", "b", "b", "c" ]
 #a.delete("b")                   #=> "b"
 #a                               #=> ["a", "c"]

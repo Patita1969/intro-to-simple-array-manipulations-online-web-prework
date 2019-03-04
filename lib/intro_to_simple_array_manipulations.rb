@@ -71,7 +71,7 @@ end
 
 def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  instructors.delete("Steven")
+  array.delete("string")
 end
 
 #.delete_if{|i|i==6}
